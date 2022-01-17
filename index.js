@@ -108,7 +108,8 @@ function number(str, format, miliseconds) {
     i--  
   }
 
-  result = convert(list, format, miliseconds)
+  if (typeof str === 'string') result = convert(list, format, miliseconds)
+  if (typeof str === 'number') result = convert([ ['number', str] ], format, miliseconds)
 
   return result
 }
@@ -176,7 +177,8 @@ function text(num, format, miliseconds) {
     i--  
   }
 
-  result = convert(list, format, miliseconds)
+  if (typeof num === 'string') result = convert(list, format, miliseconds)
+  if (typeof num === 'number') result = convert([ ['number', num] ], format, miliseconds)
 
   return result
 }
@@ -222,7 +224,7 @@ function convert(args, type, miliseconds) {
     }
 
     if (args.length <= 0) {
-      list = parseInt(list)
+      list = Math.round(list)
 
       if (type === 'short' || type === 'long') {
         var 
@@ -279,3 +281,4 @@ function convert(args, type, miliseconds) {
 
   return result
 }
+

@@ -1,7 +1,7 @@
 {
   "author": "IBlazingX",
   "license": "ISC",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "name": "iblazingx-ms",
   "description": "Un paquete para convertir formatos de tiempo a milisegundos o viseversa.",
   "main": "index.js",
