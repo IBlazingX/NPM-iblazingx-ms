@@ -1,6 +1,6 @@
 
 [![Package](https://img.shields.io/npm/v/iblazingx-ms?color=green&label=package)](https://www.npmjs.com/package/iblazingx-ms)
-[![Size](https://img.shields.io/bundlephobia/min/iblazingx-ms)](https://www.npmjs.com/package/blx-discord_commands)
+[![Size](https://img.shields.io/bundlephobia/min/iblazingx-ms)](https://www.npmjs.com/package/iblazingx-ms)
 [![Paypal](https://img.shields.io/badge/donate-paypal-blue)](https://www.paypal.me/blazingx)
 [![Twitter](https://img.shields.io/twitter/follow/IBlazingX?style=social)](https://www.twitter.com/IBlazingX)
 
@@ -8,6 +8,11 @@
 
 
 Este paquete es muy util para convertir muchos formatos de tiempo a milisegundos o viseversa.
+
+#### Contenido
+- [Como se usa?](#como-se-usa)
+- [Ejemplos](#ejemplos)
+- [Formatos](#formatos)
 
 ## Como se usa?
 ```js
