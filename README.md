@@ -1,3 +1,9 @@
+
+[![Package](https://img.shields.io/npm/v/iblazingx-ms?color=green&label=package)](https://www.npmjs.com/package/iblazingx-ms)
+[![Size](https://img.shields.io/bundlephobia/min/iblazingx-ms)](https://www.npmjs.com/package/blx-discord_commands)
+[![Paypal](https://img.shields.io/badge/donate-paypal-blue)](https://www.paypal.me/blazingx)
+[![Twitter](https://img.shields.io/twitter/follow/IBlazingX?style=social)](https://www.twitter.com/IBlazingX)
+
 [![NPM](https://nodei.co/npm/iblazingx-ms.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/iblazingx-ms)
 
 
@@ -52,3 +58,41 @@ ms("1.5 years 6m") // 47336760000
 ms("5w 6 hour 200ms") // 3045600200
 ms("15m 20 second 6 minutes") // 1280000
 ```
+
+## Formatos
+#### Milisegundos
+- Ejemplo: **ms('346')**
+- `ms` Ejemplo: **ms('346 ms')**
+- `milisecond` Ejemplo: **ms('346milisecond')**
+- `miliseconds` Ejemplo: **ms('346miliseconds')**
+
+#### Segundos
+- `s` Ejemplo: **ms('10s')**
+- `second` Ejemplo: **ms('10 second')**
+- `seconds` Ejemplo: **ms('10seconds')**
+
+#### Minutos
+- `m` Ejemplo: **ms('42m')**
+- `minute` Ejemplo: **ms('42minute')**
+- `minutes` Ejemplo: **ms('42 minutes')**
+
+#### Horas
+- `h` Ejemplo: **ms('28h')**
+- `hour` Ejemplo: **ms('28 hour')**
+- `hours` Ejemplo: **ms('28 hours')**
+
+#### Días
+- `d` Ejemplo: **ms('72 d')**
+- `day` Ejemplo: **ms('72 day')**
+- `days` Ejemplo: **ms('72 days')**
+
+#### Semanas
+- `w` Ejemplo: **ms('3 w')**
+- `week` Ejemplo: **ms('3 week')**
+- `weeks` Ejemplo: **ms('3weeks')**
+
+#### Años
+- `y` Ejemplo: **ms('671 y')**
+- `year` Ejemplo: **ms('671year')**
+- `years` Ejemplo: **ms('671 years')**
+
