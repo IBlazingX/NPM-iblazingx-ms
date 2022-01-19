@@ -20,16 +20,16 @@ ms(100, { format: "short", miliseconds: true }) // ms(value, options)
     - "number": el valor que te devolvera sera un "number", ejemplo: 15525 (default si "value" es un string)
 
   options.miliseconds:
-    - true: el valor que te devuelva contendra milisegundos
-    - false: el valor que te devuelva no contendra milisegundos (default)
+    - false: el valor que te devuelva no contendra milisegundos
+    - true: el valor que te devuelva contendra milisegundos (default)
 
     Ejemplos:
-      - true:
+      - false:
         5342 => "5s"
         1662885 => "27m 42s"
         245151535225 => "7y 40w 15h 38m 55s"
 
-      - false:
+      - true:
         5342 => "5s 342ms"
         1662885 => "27m 42s 885ms"
         245151535225 => "7y 40w 15h 38m 55s 225ms"
